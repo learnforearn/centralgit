@@ -1,9 +1,12 @@
-Mumbai git
-sudo su
-yum update -y
-yum install git -y
-which git (To see the path of git)
-git --version 2.23.3 (To see the version of git)
-git config --global user.name "ashish"
-git config --global user.eamil "akurmaliya@hotmail.com"
-git config --list (To see the user name and E-mail)
+mkdir mumbaigit
+ls (to show the dir or file)
+cd mumbaigit
+git init
+touch myfile (put some data)
+git status
+git add .
+git commit -m "1st commit from mumbai"
+git status
+git show <commit id)
+git remote add origin <centralgit.url>
+git push -u  origin master (enter user name and password)
