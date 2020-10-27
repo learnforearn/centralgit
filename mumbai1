@@ -1,0 +1,9 @@
+Mumbai git
+sudo su
+yum update -y
+yum install git -y
+which git (To see the path of git)
+git --version 2.23.3 (To see the version of git)
+git config --global user.name "ashish"
+git config --global user.eamil "akurmaliya@hotmail.com"
+git config --list (To see the user name and E-mail)
